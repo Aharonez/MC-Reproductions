@@ -30,8 +30,8 @@ var_a = 1.0;         var_b = 25.0;          var_c = 5.0;         var_d = 1.5
 s_dim = 10;          pi_dim = 4;            beta_s = 1.0;        beta_o = 1.0;
 gamma = 0.0;         gamma_rate = 0.01;     gamma_max = 0.8;     gamma_delay = 30
 deepness = 1;        samples = 1;           repeats = 5
-l_rate_top = 1e-04;  l_rate_mid = 1e-04;    l_rate_down = 0.001
-ROUNDS = 1000;       TEST_SIZE = 1000;      epochs = 1000
+l_rate_top = 1e-07;  l_rate_mid = 1e-06;    l_rate_down = 0.001
+ROUNDS = 500;       TEST_SIZE = 1000;      epochs = 1000
 
 signature = 'final_model_'
 signature += str(gamma_rate)+'_'+str(gamma_delay)+'_'+str(var_a)+'_'+str(args.batch)+'_'+str(s_dim)+'_'+str(repeats)
